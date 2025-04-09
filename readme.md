@@ -164,15 +164,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - psutil developers for the comprehensive system metrics library
 ```
 
-This README provides:
-1. Comprehensive project overview
-2. Detailed implementation sections
-3. Visual references to your media files
-4. Clear installation and configuration instructions
-5. Proper structure for easy navigation
-
-You may want to:
-1. Adjust the paths to your media files if needed
-2. Add specific version requirements if critical
-3. Include any additional setup steps specific to your environment
-4. Add a contributors section if this is a collaborative project
