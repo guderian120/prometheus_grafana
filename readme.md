@@ -25,7 +25,7 @@ I developed a Prometheus-based alert tracking system that exports system metrics
 
 ### 1. Prometheus Installation
 
-We installed Prometheus securely by creating a dedicated system user and group:
+I installed Prometheus securely by creating a dedicated system user and group:
 
 ```bash
 sudo useradd --no-create-home --shell /bin/false prometheus
@@ -37,7 +37,7 @@ This security-focused approach ensures Prometheus runs with minimal privileges.
 
 ### 2. Python Metric Exporter
 
-We developed a Python exporter (`python_exporter.py`) that uses:
+I developed a Python exporter (`python_exporter.py`) that uses:
 
 - **psutil**: For gathering system metrics
 - **prometheus-client**: For exposing metrics in Prometheus format
@@ -72,7 +72,7 @@ While Prometheus provides basic graphing capabilities, its visualization options
 
 ### 4. Grafana Integration
 
-We configured Grafana to address Prometheus' visualization limitations by:
+I configured Grafana to address Prometheus' visualization limitations by:
 
 1. **Connecting to Prometheus Data Source**  
    ![Grafana Data Source Setup](/media/grafana_prometheus_data_source_setup.png)
