@@ -3,7 +3,7 @@
 ```markdown
 # Prometheus Alert Tracker with Grafana Visualization
 
-![Grafana Dashboard Preview](/media/grafana_dashboard.webm)
+![Grafana Dashboard Preview](/media/grafana_dashboard.gif)
 
 This project creates a comprehensive system monitoring solution by combining Prometheus metrics collection with Grafana's powerful visualization capabilities. The system tracks vital server metrics, triggers alerts when thresholds are exceeded, and presents the data through interactive dashboards.
 
@@ -104,7 +104,7 @@ We configured Grafana to address Prometheus' visualization limitations by:
    ![Grafana Data Source Setup](/media/grafana_prometheus_data_source_setup.png)
 
 3. Grafana Dashboard Demo  
-   ![Grafana Dashboard](/media/grafana_dashboard.webm)
+   ![Grafana Dashboard](/media/grafana_dashboard.gif)
 
 ## Getting Started
 
